@@ -24,5 +24,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency "json"
   s.add_development_dependency "gem-release"
   # s.add_runtime_dependency "rest-client"
-  s.add_dependency 'activeresource',  '~> 3.1'
+  s.add_dependency 'activeresource',  '>= 3.1', '< 7.0'
 end
